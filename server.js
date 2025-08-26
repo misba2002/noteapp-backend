@@ -20,5 +20,11 @@ import noteRoutes from "./routes/notes.js";
 app.use("/auth", authRoutes);
 app.use("/notes", noteRoutes);
 
+
+
 const PORT = process.env.PORT || 5000;
+
+app.get("/", (req, res) => {
+  res.send("Server is running 🚀");
+});
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
