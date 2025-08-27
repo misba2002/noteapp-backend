@@ -8,7 +8,7 @@ const app = express();
 
 // Allow your frontend domain
 app.use(cors({
-  origin: "https://your-frontend.vercel.app", // ✅ allow only Vercel frontend
+  origin: "https://noteappfrontend-seven.vercel.app/", // ✅ allow only Vercel frontend
   credentials: true
 }));
 
