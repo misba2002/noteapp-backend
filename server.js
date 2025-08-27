@@ -5,6 +5,13 @@ import dotenv from "dotenv";
 
 dotenv.config();
 const app = express();
+
+// Allow your frontend domain
+app.use(cors({
+  origin: "https://your-frontend.vercel.app", // ✅ allow only Vercel frontend
+  credentials: true
+}));
+
 app.use(cors());
 app.use(express.json());
 
