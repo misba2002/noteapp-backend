@@ -115,7 +115,3 @@ DELETE /notes/:id → Delete a note
  Notes CRUD API
 
  Deployment on Render
-
-Now both frontend and backend have professional README files 🚀.
-
-👉 Do you also want me to create a combined README (for submission/portfolio) that explains both frontend + backend together in one document?
